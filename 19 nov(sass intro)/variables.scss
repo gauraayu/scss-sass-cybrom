@@ -1,0 +1,28 @@
+@import '_variables.scss';
+
+// initialising the properties already
+//  $ this is used to secure the content so no one gets to know the real code 
+#main{
+    h1{
+        color: red;
+        span{
+            color:$precolor;
+        }
+    }
+    h2 {
+        color: greenyellow;
+        font-size: $firstsize;
+    }
+}
+// using mixin tag
+// pasting this in partial file
+// @mixin btn(){
+//     background-color: aqua;
+//     color: red;
+// }
+.btn1{
+    @include btn();
+}
+.btn2{
+    @include btn();
+}

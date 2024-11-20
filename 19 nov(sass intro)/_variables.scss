@@ -1,0 +1,8 @@
+$precolor:blue;
+// $seccolor:red;
+$firstsize:40px;
+// using mixin tag
+@mixin btn(){
+    background-color: aqua;
+    color: red;
+}

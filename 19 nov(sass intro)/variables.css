@@ -1,0 +1,20 @@
+#main h1 {
+  color: red;
+}
+#main h1 span {
+  color: blue;
+}
+#main h2 {
+  color: greenyellow;
+  font-size: 40px;
+}
+
+.btn1 {
+  background-color: aqua;
+  color: red;
+}
+
+.btn2 {
+  background-color: aqua;
+  color: red;
+}/*# sourceMappingURL=variables.css.map */

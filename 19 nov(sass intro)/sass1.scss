@@ -1,0 +1,18 @@
+
+// when we click on watch sass 2 files are made 1st css and 2nd css .map
+
+// .name{
+//     color: red;
+// }
+// using nesting
+#main{
+    h1{
+        color: red;
+        span{
+            color: black;
+        }
+    }
+    h2 {
+        color: greenyellow;
+    }
+}
