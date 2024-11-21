@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+// display none for nav bar 
+.ham{
+    
+    color: black;
+    margin: 30px;
+
+    .showtext{display: none;}
+.text{
+    background-color: aquamarine;
+}
+    span{
+        padding-left: 200px;
+        font-size: 50px;
+    }
+    // used in nav bar if space is less
+    #check:checked~.showtext{
+   display: block;
+    }
+}

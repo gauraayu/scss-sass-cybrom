@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.ham {
+  color: black;
+  margin: 30px;
+}
+.ham .showtext {
+  display: none;
+}
+.ham .text {
+  background-color: aquamarine;
+}
+.ham span {
+  padding-left: 200px;
+  font-size: 50px;
+}
+.ham #check:checked ~ .showtext {
+  display: block;
+}/*# sourceMappingURL=index.css.map */
